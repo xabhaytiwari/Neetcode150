@@ -30,6 +30,14 @@ class NonOptimalSolution {
         }
 };
 
+class Solution {
+    public:
+        vector<vector<string>> group_anagrams(vector<string>& strs) {
+            vector<int> hash_alphabet(26, 0);
+            
+        }
+};
+
 int main() {
     vector<string> strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
     NonOptimalSolution solution;
